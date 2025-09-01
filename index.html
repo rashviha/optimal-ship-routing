@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/placeholder.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean Route Optimizer - Maritime Navigation & Weather Routing</title>
+    <meta name="description" content="AI-powered maritime navigation with real-time weather routing for the Indian Ocean. Optimize fuel consumption, travel time, and safety for commercial vessels." />
+    
+    <!-- Leaflet CSS for maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Beautiful typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <style>
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: rgba(59, 130, 246, 0.1);
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(59, 130, 246, 0.3);
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(59, 130, 246, 0.5);
+      }
+      
+      /* Leaflet custom marker styles */
+      .custom-marker {
+        background: transparent !important;
+        border: none !important;
+      }
+      
+      .waypoint-marker {
+        background: transparent !important;
+        border: none !important;
+      }
+      
+      /* Custom leaflet popup */
+      .leaflet-popup-content-wrapper {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+        box-shadow: 0 10px 40px -8px rgba(59, 130, 246, 0.3);
+      }
+      
+      .leaflet-popup-tip {
+        background: rgba(255, 255, 255, 0.95);
+      }
+      
+      /* Font configuration */
+      body {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+      }
+    </style>
+
+    <meta property="og:title" content="Ocean Route Optimizer - Smart Ship Routing" />
+    <meta property="og:description" content="Optimize ship routes in the Indian Ocean with weather-aware routing. Save fuel, time, and costs with our intelligent maritime routing system." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
