@@ -1,7 +1,7 @@
 
-# 🚢 Optimal Ship Routing
+# Optimal Ship Routing
 
-## 🌊 Why this project exists
+##  Why this project exists
 
 Most of the world’s trade floats on the backs of ships. They carry everything from bananas to cars — across oceans that can be unpredictable, expensive, and dangerous. Every mile matters: longer routes burn more fuel, cost more money, and leave a bigger carbon footprint.
 
@@ -9,7 +9,7 @@ This project is about helping ships find **better paths across the sea**: faster
 
 ---
 
-## ✨ What this does
+##  What this does
 
 * **Finds smarter routes** – not just shortest, but balanced for time, fuel, and safety.
 * **Thinks about the ocean** – considers weather, currents, and rough seas.
@@ -19,7 +19,7 @@ This project is about helping ships find **better paths across the sea**: faster
 
 ---
 
-## 🗂️ What’s inside
+##  What’s inside
 
 ```
 optimal-ship-routing/
@@ -35,7 +35,7 @@ optimal-ship-routing/
 
 ---
 
-## 🚀 How to use it
+##  How to use it
 
 Clone this repo and hop inside:
 
@@ -58,7 +58,7 @@ python src/routing.py --origin "Singapore" --destination "Rotterdam" --fuel-effi
 
 ---
 
-## 🧭 Example run
+##  Example run
 
 Say we’re sending a ship from Singapore to Rotterdam. We tell the algorithm to avoid storms and save fuel.
 
@@ -83,14 +83,9 @@ That’s real savings — for wallets *and* the atmosphere.
 
 ---
 
-## 🤝 How you can help
+##  How you can help
 
 This project is open to ideas, feedback, and pull requests. If you see a way to make it smarter, safer, or cooler — let’s build it together.
 
 ---
 
-## 📜 License
-
-MIT License.
-
----
