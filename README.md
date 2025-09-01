@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🚢 Optimal Ship Routing
 
-**URL**: https://lovable.dev/projects/7fe46cb0-0218-4e10-b0ed-ebc7d23fc1c5
+## 🌊 Why this project exists
 
-## How can I edit this code?
+Most of the world’s trade floats on the backs of ships. They carry everything from bananas to cars — across oceans that can be unpredictable, expensive, and dangerous. Every mile matters: longer routes burn more fuel, cost more money, and leave a bigger carbon footprint.
 
-There are several ways of editing your application.
+This project is about helping ships find **better paths across the sea**: faster when it matters, safer when storms threaten, and cleaner for the planet.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7fe46cb0-0218-4e10-b0ed-ebc7d23fc1c5) and start prompting.
+## ✨ What this does
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Finds smarter routes** – not just shortest, but balanced for time, fuel, and safety.
+* **Thinks about the ocean** – considers weather, currents, and rough seas.
+* **Cuts fuel use** – saving money and reducing emissions.
+* **Stays fast** – built to scale for multiple ships and routes.
+* **Can grow** – room for maps, dashboards, and fleet-level insights.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🗂️ What’s inside
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+optimal-ship-routing/
+│── data/              # Example datasets: weather, ports, routes
+│── src/               # Core algorithm
+│   ├── routing.py     # The brains: routing logic
+│   ├── utils.py       # Helpers
+│── notebooks/         # Jupyter notebooks for tinkering
+│── tests/             # Making sure nothing breaks
+│── README.md          # You’re reading it
+│── requirements.txt   # What you need to run it
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 How to use it
 
-**Use GitHub Codespaces**
+Clone this repo and hop inside:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git clone https://github.com/your-username/optimal-ship-routing.git
+cd optimal-ship-routing
+```
 
-## What technologies are used for this project?
+Install the stuff it needs:
 
-This project is built with:
+```bash
+pip install -r requirements.txt
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Run a route:
 
-## How can I deploy this project?
+```bash
+python src/routing.py --origin "Singapore" --destination "Rotterdam" --fuel-efficient
+```
 
-Simply open [Lovable](https://lovable.dev/projects/7fe46cb0-0218-4e10-b0ed-ebc7d23fc1c5) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🧭 Example run
 
-Yes, you can!
+Say we’re sending a ship from Singapore to Rotterdam. We tell the algorithm to avoid storms and save fuel.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Output might look like:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```
+Route Found: 12,340 nautical miles  
+Estimated Time: 27 days  
+Fuel Saved: ~15%  
+```
+
+That’s real savings — for wallets *and* the atmosphere.
+
+---
+
+## 🔮 What’s next
+
+* [ ] Real-time ship tracking
+* [ ] Smarter fuel predictions with ML
+* [ ] A shiny web dashboard with maps
+* [ ] Fleet-wide optimization (multiple ships at once)
+
+---
+
+## 🤝 How you can help
+
+This project is open to ideas, feedback, and pull requests. If you see a way to make it smarter, safer, or cooler — let’s build it together.
+
+---
+
+## 📜 License
+
+MIT License.
+
+---
